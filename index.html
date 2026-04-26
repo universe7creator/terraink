@@ -26,7 +26,7 @@
       href="/assets/apple-touch-icon.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
-    <title>Terraink: Free Map Poster & Wallpaper Creator</title>
+    <title>Terraink - Cartographic Poster Engine</title>
 
     <!-- Primary SEO -->
     <meta
@@ -43,6 +43,7 @@
       content="%VITE_GOOGLE_SITE_VERIFICATION%"
     />
     <meta name="author" content="Terraink™" />
+    <link rel="canonical" href="https://terraink-flax.vercel.app">
     <meta name="copyright" content="Terraink™" />
     <link rel="canonical" href="https://terraink.app" />
 
@@ -138,5 +139,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-  </body>
+  
+<script>
+// Checkout URL - auto-wired by fix_dead_checkout_buttons.py
+const CHECKOUT_URL = "https://buy.polar.sh/polar_cl_v6aLBWg5RLrML74Hra5G1mmbGbvFb0JnFOv9s2pEkb7";
+document.querySelectorAll('.buy-btn, [class*="buy"], [class*="checkout"]').forEach(btn => {
+    if (!btn.getAttribute('onclick') && !btn.href) {
+        btn.style.cursor = 'pointer';
+        btn.addEventListener('click', () => window.open(CHECKOUT_URL, '_blank'));
+    }
+});
+</script>
+</body>
 </html>
