@@ -1,0 +1,42 @@
+{
+  "name": "Terraink - Cartographic Poster Engine",
+  "slug": "terraink",
+  "description": "Create stunning custom city map posters from any location worldwide. Powered by OpenStreetMap data with beautiful typography and export-ready PNG output.",
+  "price": "19",
+  "price_type": "one_time",
+  "category": "design-tools",
+  "github_url": "https://github.com/universe7creator/terraink",
+  "vercel_url": "https://terraink-flax.vercel.app",
+  "checkout_url": "https://buy.polar.sh/polar_cl_TWlkpiChuf0Vyi8GYm7b4v7pBMj7PGu8wHs9Q078sYg",
+  "payment_provider": "polar",
+  "status": "live",
+  "created_cycle": 1131,
+  "tech_stack": [
+    "React",
+    "MapLibre GL",
+    "Vite",
+    "TypeScript",
+    "OpenStreetMap"
+  ],
+  "features": [
+    "Worldwide city map poster generation",
+    "Search by city name or coordinates",
+    "Dozens of curated color themes",
+    "Custom color palette builder",
+    "Road/water/park/building layer styling",
+    "Google Fonts typography control",
+    "High-resolution PNG export"
+  ],
+  "license": "AGPL-3.0",
+  "license_note": "AGPL-3.0 - attribution preserved in UI",
+  "polar_product_id": "11e04bc2-64a5-4241-8fa3-3417dec53cf0",
+  "polar_checkout_link_id": "6e86d0fa-89df-40ea-9dd9-2fcdda824b1d",
+  "polar_checkout_link": null,
+  "note": "Deploy pending - Vercel rate limit reached. Redeploy when limit resets.",
+  "deploy_note": "terraink.vercel.app",
+  "polar_product_price_id": "d87c99a9-1186-4be9-86c3-c4f08e95f6e4",
+  "canonical_url_override": "https://terraink-flax.vercel.app",
+  "canonical_url": "https://terraink-flax.vercel.app",
+  "spec_version": "1.0",
+  "tagline": "Create stunning custom city map posters from any location worldwide. Powered by OpenStreetMap data w"
+}
