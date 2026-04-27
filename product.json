@@ -6,7 +6,7 @@
   "price_type": "one_time",
   "category": "design-tools",
   "github_url": "https://github.com/universe7creator/terraink",
-  "vercel_url": "https://terraink-2vmvww67h-madnessqws-projects.vercel.app",
+  "vercel_url": "https://terraink-7k0fphhtp-madnessqws-projects.vercel.app",
   "checkout_url": "https://buy.polar.sh/polar_cl_TWlkpiChuf0Vyi8GYm7b4v7pBMj7PGu8wHs9Q078sYg",
   "payment_provider": "polar",
   "status": "live",
@@ -39,6 +39,6 @@
   "canonical_url": "https://terraink-flax.vercel.app",
   "spec_version": "1.0",
   "tagline": "Create stunning custom city map posters from any location worldwide. Powered by OpenStreetMap data w",
-  "deployment_url": "https://terraink-2vmvww67h-madnessqws-projects.vercel.app",
-  "webhook_url": "https://terraink-2vmvww67h-madnessqws-projects.vercel.app/api/webhook"
+  "deployment_url": "https://terraink-7k0fphhtp-madnessqws-projects.vercel.app",
+  "webhook_url": "https://terraink-7k0fphhtp-madnessqws-projects.vercel.app/api/webhook"
 }
